@@ -4,10 +4,12 @@ import 'package:get/get.dart';
 import '../controller/initial.dart';
 
 class InitialView extends StatelessWidget {
-  InitialView({Key? key, required this.title}) : super(key: key);
+  /// Construtor.
+  InitialView({Key? key}) : super(key: key);
 
-  final String title;
+  /// Provedor de ações para interação com o utilizador.
   final InitialController controller = Get.put(InitialController());
+  final String title = 'Home Page';
 
   @override
   Widget build(BuildContext context) {

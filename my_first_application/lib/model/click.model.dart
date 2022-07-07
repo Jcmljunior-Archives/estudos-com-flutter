@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 
-class ClickModel {
+class Click {
   RxInt tap = 0.obs;
 
-  ClickModel({int tap = 0}) {
+  Click({int tap = 0}) {
     this.tap.value = tap;
   }
 

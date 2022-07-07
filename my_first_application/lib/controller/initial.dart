@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-import '../model/click.dart';
+import '../model/click.model.dart';
 
 class InitialController extends GetxController {
-  final click = Get.put(ClickModel(tap: 10));
+  final click = Get.put(Click(tap: 10));
 }
