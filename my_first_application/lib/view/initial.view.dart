@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controller/initial.dart';
+import '../controller/initial.controller.dart';
 
 class InitialView extends StatelessWidget {
   /// Construtor.
